@@ -19,6 +19,7 @@ th
 </head>
 <body>
 <h3 align="center" style=color:blue><u>Country List</u></h3>
+<h3 align="center"><a href="addcount"> Add Country</a></h3>
 <table align="center" border="2" width="50%" cellpadding="2">
 <tr><th>S.No</th><th>Code</th><th>Name</th><th>Population</th><th>Action</th></tr>
 <c:forEach items="${list}" var="c">

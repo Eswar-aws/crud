@@ -9,14 +9,14 @@
 <body>
 <form:form action="/Spring-MVC-CRUD3/editsave" method="post" modelAttribute="count">
 
-<table border="2">
+<table border="0">
 
-<tr><td><form:input path="sno"></form:input></td></tr>
-<tr><td><form:input path="id"></form:input></td></tr>
-<tr><td>Title</td><td><form:input path="title"></form:input></td></tr>
-<tr><td>Author</td><td><form:input path="author"></form:input></td></tr>
-<tr><td>PublishedDate</td><td><form:input path="publishdate"></form:input></td></tr>
-<tr><td>Price</td><td><form:input path="price"></form:input></td></tr>
+<form:hidden path="sno" />
+<tr><td>CountryCode</td><td><form:input path="code"></form:input></td></tr>
+<tr><td>Country Name</td><td><form:input path="name"></form:input></td></tr>
+<tr><td>Population</td><td><form:input path="population"></form:input></td></tr>
+<tr><td></td><td align="center" cellpadding="2"><input type="submit" value="Update">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="clear"></td></tr>
+
 
 </table>
 
