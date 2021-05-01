@@ -7,7 +7,7 @@
 
   <groupId>com.india.Spring</groupId>
   <artifactId>Spring-MVC-CRUD3</artifactId>
-  <version>3.0</version>
+  <version>3.5</version>
   <packaging>war</packaging>
 
   <name>Spring-MVC-CRUD3 Maven Webapp</name>
