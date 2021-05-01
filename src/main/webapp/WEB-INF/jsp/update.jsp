@@ -7,7 +7,7 @@
 <title>Udate country</title>
 </head>
 <body>
-<form:form action="/Spring-MVC-CRUD3/editsave" method="post" modelAttribute="count">
+<form:form action="/Spring-MVC-CRUD3-3.5/editsave" method="post" modelAttribute="count">
 
 <table border="0">
 
